@@ -12,59 +12,68 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'Who is the Prime minister of Canada?',
-        choice1: 'Pierre Trudeau',
-        choice2: 'Justin Trudeau',
-        choice3: 'John A McDonald',
-        choice4: '',
-        answer: 2,
-    },
-    {
-        question:"The tallest building in the world is located in which city?",
-        choice1: "Dubai",
-        choice2: "New York",
-        choice3: "Shanghai",
-        choice4: "None of the above",
-        answer: 1,
-    },
-    {
-        question: "What percent of American adults believe that chocolate milk comes from brown cows?",
-        choice1: "20%",
-        choice2: "18%",
-        choice3: "7%",
-        choice4: "33%",
+        question: 'What is the highest honour a Canadian can receive?',
+        choice1: 'The Canadian Crown',
+        choice2: 'The Order of Peace',
+        choice3: 'The Victoria Cross',
+        choice4: 'The Canadian Crown',
         answer: 3,
     },
     {
-        question: "Approximately what percent of U.S. power outages are caused by squirrels?",
-        choice1: "10-20%",
-        choice2: "5-10%",
-        choice3: "15-20%",
-        choice4: "30%-40%",
+        question:"Of the following, what is a non-Canadian NOT allowed to do",
+        choice1: "Own a farm or a house",
+        choice2: "Vote in federal and provincials elections",
+        choice3: "Get health insurance",
+        choice4: "Get Higher Education",
+        answer: 2,
+    },
+    {
+        question: "Which animal is the national symbol of Canada",
+        choice1: "Cougar",
+        choice2: "Beaver",
+        choice3: "Bear",
+        choice4: "Deer",
+        answer: 2,
+    },
+    {
+        question: "What did the Suffrage Moment achieve ",
+        choice1: "Women obtained the right to vote.",
+        choice2: "Employment insurance was established.",
+        choice3: "Slavery was abolished Canada.",
+        choice4: "Quebec experienced an era of rapid change.",
         answer: 1,
     },
 
     {
-        question: "Approximately what percent of U.S. power outages are caused by squirrels?",
-        choice1: "10-20%",
-        choice2: "5-10%",
-        choice3: "15-20%",
-        choice4: "30%-40%",
-        answer: 1,
+        question: "Under Canadian law, why is every person presumed to be innocent until proven guilty?",
+        choice1: "To establish that no person or group is above the law.",
+        choice2: "To provide freedom of thought, belief, opinion, and expression.",
+        choice3: "To ensure that men and women are equal under the law.",
+        choice4: "To ensure that men and women are equal under the law.",
+        answer: 4,
     },
 
     {
-        question: "Approximately what percent of U.S. power outages are caused by squirrels?",
-        choice1: "10-20%",
-        choice2: "5-10%",
-        choice3: "15-20%",
-        choice4: "30%-40%",
-        answer: 1,
+        question: "What is Canada's system of governance?",
+        choice1: "Police state, parliamentary democracy, and constitutional monarchy",
+        choice2: "Federal state, provincial state, and constitutional monarchy",
+        choice3: "Federal state, parliamentary democracy, and constitutional monarchy",
+        choice4: "Federal state, parliamentary democracy, and dictatorship",
+        answer: 3,
+    },
+
+    {
+        question: "What is the primary role of the police in Canada?",
+        choice1: "Police state, parliamentary democracy, and constitutional monarchy",
+        choice2: "To keep people safe and to enforce the law",
+        choice3: "To provide national security intelligence to the government",
+        choice4: "To resolve disputes and interpret law",
+        answer: 2,
     }
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 10
+const MAX_QUESTIONS = 6
 
 startGame = () => {
     questionCounter = 0
