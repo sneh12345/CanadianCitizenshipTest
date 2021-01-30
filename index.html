@@ -1,21 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="ie=edge" http-equiv="X-UA-Compatible">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+		<title>Home Page</title>
+		
 </head>
 <body>
-    <div class="container">
-        <div id="home" class="flex-column flex-center">
-            <h1>The Canadian Citizenship Practise Test</h1>
-            <h1>Are you Ready?</h1>
-            <a href="game.html" class="btn">Play</a>
-            <a href="highscores.html" id="highscore-btn" class="btn">High Scores<i class="fas fa-crown"></i></a>
-            <a href="game.html" class="btn">About us</a>
-        </div>
-    </div>
+        <header>
+                <div class="logo-container">
+                        <h4 class="logo">CanadianCitizenshiptest.ga</h4>
+                </div>
+                <nav>
+                        <ul class="nav-links">
+                                <li>
+                                        <a class="nav-link" href="#">Donate</a>
+                                </li>
+                                <li>
+                                        <a class="nav-link" href="#">Study</a>
+                                </li>
+                                <li>
+                                        <a class="nav-link" href="#">About Us</a>
+                                </li>
+                        </ul>
+                </nav>
+        </header>
+        <main>
+                <section class="presentation">
+                        <div class="introduction">
+                                <div class="intro-text">
+                                        <h1>Pass the Canadian Citizenship Exam</h1>
+                                        <p>#</p>
+                                </div>
+                                <div class="cta">
+                                        <button class="cta-select">Learn more</button> <button class="cta-add">Start the test</button>
+                                </div>
+                        </div>
+                        <div class="cover"><img height="600" src="/img/caaj.png" width="900"></div>
+                </section>
+                <style>
+                .parallax {
+                /* The image used */
+				background-image: url("https://www.theglobeandmail.com/resizer/v4mXC_X7inNSEunHpdaY0PA623w=/480x0/filters:quality(80)/arc-anglerfish-tgam-prod-tgam.s3.amazonaws.com/public/6IXOVAQPCNEOVLTZ6JGK3DFXKU");
+				width: 100;
+
+                /* Set a specific height */
+                min-height: 500px; 
+
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
+                </style>
+                
+                <div class="parallax"></div>
+                <div style="height:1000px;background-color:white;font-size:36px"><div class = "size"><img src="https://specials-images.forbesimg.com/imageserve/545388430/960x0.jpg?fit=scaler"></img>	</div>
+                       
+                </div>
+		</main>
+
 </body>
 </html>
